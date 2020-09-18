@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto 2 GifOS</title>
+    <script src="https://kit.fontawesome.com/e7d4789bf7.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap">
+    <link href="./images/gif.svg" rel="icon">
+</head>
+<body>
+  
+  
+  
+  <header class="container">
+    <h1>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>		
+    <nav class="navbar">
+      <div class="container-fluid">			    
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">			        
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <figure>
+            <img class="logo" src="./images/gifOF_logo.png" alt="logo">
+           </figure>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+          		      
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../gifos/mis-gifos.html"><span class="sub">M</span>is Guifos</a></li>
+            
+            <li class="dropdown">
+             <a href="https://www.henry-chavez.com" class="dropdown-toggle">Elegir tema <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><button id="tema1" class="tema1"><span class="sub">S</span>ailor Day</button></li>
+                <li class="divider"></li>
+                <li><button id="tema2"  class="tema2">Sailor Night</button></li>
+              </ul>
+            </li>
+            <li><a href="../video/crear-gifos.html">Crear Guifos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>		
+</header> 
+  
+  
+  
+  <header class="header">
+    
+   
+    <div class="box">
+    <figure>
+      <img class="logo" src="./images/gifOF_logo.png" alt="logo">
+     </figure>
+    <button id="make-gifs" class="make-gifs">Crear Guifos</button>
+     <div class="dropdown">
+      <button class="btn">Elegir tema</button>
+      <figure class="drop"><img class="drop-figure" src="./images/dropdown.svg" alt="dropdown"></figure>
+      <ul class="dropdown-content">
+     <li><button id="tema1" class="tema1"><span class="sub">S</span>ailor Day</button></li>
+      <li><input id="tema2"  class="tema2" type="button" value="Sailor Night"></li>
+   </ul>
+</div>
+<button id="my-gifs" class="my-gifs"><span class="sub">M</span>is Guifos</button>
+</div>
+</header>
+  
+<!--Cuadro de busqueda-->
+<main class="search-box">
+    <h1 class="title-search" >Buscar</h1>
+    <form id="search-form" >
+        <input class="input" id="search-input" type="text" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+        <button class="button-search" type="submit"><img class="lupa" src="images/lupa_inactive.svg" alt="lupa">Search</button>
+    </form>
+</main>
+<div id="results" class="results"></div>
+
+<!--Sugerencias-->
+ <h2>Hoy te sugerimos:</h2>
+  <div class="container1" >
+  <div id="close" class="gifDIV">
+  <figure>
+    <p>#Jonathanvanness<img id="close-button1" class="close" src="images/button-close.svg" alt="button close"></p>
+    <img class="gif" src="https://media.giphy.com/media/5PhoLTGAiHguInjU8w/giphy.gif" alt="Jonathan-Van-Ness"/>
+    <button id="jonathan" class="gif-button" >Ver más…</button>
+  </figure>
+    </div>
+   <div id="close2" class="gifDIV">
+   <figure>
+    <p>#SailorMercury<img id="close-button2" class="close2" src="images/button-close.svg" alt="button close"></p>
+    <img class="gif" src="https://media.giphy.com/media/148v5ID1vNBVyo/giphy.gif" alt="Sailor-Mercury"/>
+   <button id="sailor" class="gif-button" >Ver más…</button>
+  </figure>
+     </div>
+   <div id="close3" class="gifDIV">
+    <figure>
+     <p>#FabFive<img  id="close-button3" class="close3" src="images/button-close.svg" alt="button close"></p>
+     <img class="gif" src="https://media.giphy.com/media/1HPzxMBCTvjMs/giphy.gif" alt="FabFive"/>
+      <button id="favFive" class="gif-button">Ver más…</button>
+     </figure>
+    </div>
+   <div id="close4" class="gifDIV">
+    <figure>
+     <p>#Unicorns&Rainbows<img id="close-button4" class="close4" src="images/button-close.svg" alt="button close"></p>
+     <img class="gif" src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif" alt="Unicorns&Rainbows"/>
+      <button id="unicorns" class="gif-button" >Ver más…</button>
+     </figure>
+     </div>
+     </div>
+
+     <!--Tendencias-->  
+<h2 class="tendencias">Tendencias:</h2>
+  <div id="trending" class="trending" ></div>
+  
+  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/menu-responsive.js"></script> 
+
+</body>
+</html>
