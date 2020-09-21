@@ -1,1 +1,10 @@
-# GifOs
+- HTML5
+- CSS3
+- FLEX
+-Javascript
+-Jquery
+- API de GIPHY
+- Diseño responsivo / Responsive desing
+- Etiquetas semánticas / Semantic labels
+- Recursos gratuitos de fuentes, imagenes e íconos / Free resources of fonts, images and icons.
+- favicon
