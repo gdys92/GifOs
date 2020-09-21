@@ -72,11 +72,7 @@ h1 {
     border: 1px solid #808080;
     box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
 }
-.drop {
-   /* position: relative;
-    bottom: 15px;
-    right: -64px;*/
-}
+
 .drop-figure {
     background: #F7C9F3;
     border: 1px solid #110038;
