@@ -335,7 +335,7 @@ button:active {
   float: right;
   margin-right: 16px;
   padding: 9px 10px;
-  margin-top: 25px;
+  margin-top: 21px;
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
@@ -429,5 +429,4 @@ button:active {
 }
 .navbar .navbar-toggle .icon-bar {
   background-color: #e6a4db;
-}
 }
