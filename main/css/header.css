@@ -14,7 +14,7 @@
   width: 100%;
 }
 .logo {
-  margin: 15px 15px 15px 15px;
+  margin: 15px 15px 8px 15px;
 }
 
 .tema1 {
@@ -49,7 +49,7 @@ outline: 0;
 a {
   color: #110038;
   text-decoration: none;
-  background: transparent;  
+  background: transparent;
 }
 a, .navbar-toggle,.dropdown-menu{
   -webkit-transition: all .3s;
@@ -60,7 +60,7 @@ a, .navbar-toggle,.dropdown-menu{
 }
 a:hover,
 a:focus {
-  color: #063847;  
+  color: #e6a4db;  
 }
 a:focus {
   outline: thin dotted;
@@ -69,17 +69,21 @@ a:focus {
 }
 button:hover,
 button:active {
-    border: 1px solid #110038;
+    border: 1px solid #e6a4db;
 }
+
 
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
-@media (min-width: 1200px) {
+ @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
+  } 
+  .logo {
+    margin: 15px 15px 15px 15px;
   }
 }
 .collapse {
@@ -98,12 +102,13 @@ button:active {
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+/*
 .caret.right {
   border-top: 4px solid transparent;
   border-right: 4px solid transparent;
   border-left: 4px solid;
   border-bottom: 4px solid transparent;
-}
+} */
 .dropdown {
   position: relative;
 }
@@ -155,7 +160,7 @@ button:active {
     left: 30%;
     border-style: solid;
     border-width: 10px;
-    border-color: transparent transparent #063847 transparent;
+    border-color: transparent transparent #e6a4db transparent;
   }  
   .dropdown-menu .dropdown-menu {    
     top: -3px;
@@ -174,7 +179,7 @@ button:active {
     left: -20px;
     border-style: solid;
     border-width: 10px;
-    border-color: transparent #0e6e8c transparent transparent;
+    border-color: transparent #e6a4db transparent transparent;
   }
   .dropdown:hover > .dropdown-menu {
     opacity: 1 ;
@@ -200,7 +205,7 @@ button:active {
     right: 30%;
     border-style: solid;
     border-width: 10px;
-    border-color: transparent transparent #063847 transparent;
+    border-color: transparent transparent #e6a4db transparent;
   } 
   .navbar {
     border-radius: 4px;
@@ -265,10 +270,12 @@ button:active {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
-  background-color: #0e6e8c;
+  background-color: #e6a4db;
 }
 .dropdown-menu > li {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .dropdown-menu > li > a {
   display: block;
@@ -283,7 +290,7 @@ button:active {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {      
-  background: #0e6e8c;
+  background: #e6a4db;
   color: #110038;
 }
 .open > .dropdown-menu {  
@@ -294,6 +301,8 @@ button:active {
   position: relative;
   min-height: 76px;
   background-color: #fff4fd;
+  margin-top: 2px;
+  margin-bottom: 1px;
 }
 .navbar-collapse {
   max-height: 340px;
@@ -301,18 +310,14 @@ button:active {
   padding-right: 15px;
   padding-left: 15px;
   border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  -webkit-overflow-scrolling: touch;
+  box-shadow: inset 0 1px 0 rgba(241, 206, 231, 0.699);
+  -webkit-overflow-scrolling: touch; 
 }
 .navbar-collapse.in {
   overflow-y: auto;
 }
 
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
+
 .navbar-brand {
   float: left;
   padding: 15px 15px;
@@ -371,13 +376,14 @@ button:active {
     position: static;
     float: none;
     width: auto;
-    margin-top: 0;    
+    margin-left: 128px; 
+    padding-left: 6px;
     border: 0;
     box-shadow: none;
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 15px 5px 2px
   }
   .navbar-nav .open .dropdown-menu > li > a{
     line-height: 20px;
@@ -400,26 +406,28 @@ button:active {
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
   background-color: transparent;
-  color: #fff;
-  -webkit-box-shadow: 0 -25px 0 #063847 inset, 0 25px 0 #063847 inset, 100px 0 0 #063847 inset, -100px 0 0 #063847 inset;
-  -moz-box-shadow: 0 -25px 0 #063847 inset, 0 25px 0 #063847 inset, 100px 0 0 #063847 inset, -100px 0 0 #063847 inset;
-  -ms-box-shadow: 0 -25px 0 #063847 inset, 0 25px 0 #063847 inset, 100px 0 0 #063847 inset, -100px 0 0 #063847 inset;
-  box-shadow: 0 -25px 0 #063847 inset, 0 25px 0 #063847 inset, 100px 0 0 #063847 inset, -100px 0 0 #063847 inset;
+  color: #110038;
+  -webkit-box-shadow: 0 -25px 0 #f7c9f3 inset, 0 25px 0 #f7c9f3 inset, 100px 0 0 #f7c9f3 inset, -100px 0 0 #f7c9f3 inset;
+  -moz-box-shadow: 0 -25px 0 #f7c9f3 inset, 0 25px 0 #f7c9f3 inset, 100px 0 0 #f7c9f3 inset, -100px 0 0 #f7c9f3 inset;
+  -ms-box-shadow: 0 -25px 0 #f7c9f3 inset, 0 25px 0 #f7c9f3 inset, 100px 0 0 #f7c9f3 inset, -100px 0 0 #f7c9f3 inset;
+  box-shadow: 0 -25px 0 #f7c9f3 inset, 0 25px 0 #f7c9f3 inset, 100px 0 0 #f7c9f3 inset, -100px 0 0 #f7c9f3 inset;
 }
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus {
-  color: #110038;
-  background-color: #063847;
+  color: #af32a9;
+  background-color: #e6a4db;
 }
+
 .navbar .navbar-toggle {
-  border-color: #110038;  
-}
+  border-color: #c441ae;  
+} 
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #063847;
-  border-color: #063847;
+  background-color: #e9cae4;
+  border-color: #d47fc6;
 }
 .navbar .navbar-toggle .icon-bar {
-  background-color: #110038;
+  background-color: #e6a4db;
+}
 }
