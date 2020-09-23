@@ -1,10 +1,10 @@
-- API de GIPHY
+- API de GIPHY / GIPHY API
 - HTML5
 - CSS3
 - FLEX
 - Javascript
 - Jquery
-- Diseño responsivo / Responsive desing
+- Diseño responsivo / Responsive design
 - Etiquetas semánticas / Semantic labels
 - Recursos gratuitos de fuentes, imagenes e íconos / Free resources of fonts, images and icons.
 - favicon
