@@ -7,3 +7,9 @@ body {
     background: #FFF4FD;
     font-family: 'Chakra Petch', sans-serif;
 }
+
+img {
+    display: flex;
+    justify-content: center;
+    
+}
