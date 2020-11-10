@@ -1,7 +1,7 @@
 - API de GIPHY / GIPHY API
 - HTML5
 - CSS3
-- FLEX
+- FLEXBOX
 - Javascript
 - Jquery
 - Diseño responsivo / Responsive design
