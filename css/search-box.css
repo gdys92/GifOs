@@ -12,42 +12,27 @@ button:active {
 }
 
 /*   SEARCH BOX  */
+
+
 main {
     background: #E6E6E6;
     box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
- /*   margin: 16px 140px 64px 100px; */
- max-width: 100%;
+    margin: 16px 33px 64px 29px;
 
 }
-.title-search {
-    font-family: 'ChakraPetch', Bold;
-    font-size: 14px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
- /*   margin-top: 3px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-left: 3px;
-    padding-left: 3px;
-    margin-right: 3px;    */
-}
-form {
-    display: flex;
-    justify-content: center;
-}
+
+
+
+
+
 input {
     background: #FFFFFF;
     border: 1px solid #979797;
     box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
-/*    margin-top: 12px;
-    margin-bottom: 12px;
-    margin-left: 15px;
-    max-width: 1000px;
-    height: 48px;  */
+    height: 34px; 
 
 }
-  ::placeholder{
+ ::placeholder{
     font-family: 'ChakraPetch', Regular;
     font-size: 16px;
     color: #B4B4B4;
@@ -67,7 +52,7 @@ input {
     box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
     width: 102px;
     height: 36px;
-    vertical-align: middle;
+    vertical-align: middle; 
 }
 .lupa {
     margin-right: 10px;
@@ -90,25 +75,21 @@ input {
     margin-top: 1px;
     }
     
-    form {
-    
-    }
+
     
     input {
-    /*  margin-top: 12px;
+     margin-top: 12px;
       margin-bottom: 12px;
       margin-left: 15px;
       min-width: 1057px;
-      height: 48px; */
+      height: 48px; 
     
     }
-    ::placeholder{
-    /*  padding-left: 16px;  */
-    }
+
     .results {
-    margin-right: 140px;
-    margin-left: 140px;
+        margin: 20px 140px 20px 140px;
     }
     
 
 }
+
