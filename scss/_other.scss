@@ -1,0 +1,89 @@
+
+#gif-maximizado {
+    display: none;
+}
+#gif-maximizado a {
+    text-align: unset;
+}
+#div-max {
+    padding-top: 6.4rem;
+    border-top: 5px rgba(87, 46, 299, 0.5) solid;
+}
+.close-max {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3.93rem;
+    margin-bottom: 7.8rem;
+}
+.close-max img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+#galeria-max {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.imagen-max {
+    position: relative;
+    height: 24.5rem;
+}
+.gifs-max, .gifs-max-trending, .gifs-max-seccion, .gifs-max-gifos {
+    width: 31.8rem;
+    height: 24.5rem;
+}
+.primer-boton, .segundo-boton {
+    display: none
+}
+.grid-max {
+    display: grid;
+    grid-template-rows: 1.8rem 4rem;
+    grid-template-columns: 23.15rem 4.25rem 4.25rem;
+    grid-template-areas: "a b c"
+                         "d b c";
+    justify-content: center;
+    margin-top: 1.4rem;
+    margin-bottom: 12.6rem;
+}
+#item1 {
+    grid-area: a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+#item2 {
+    grid-area: d;
+    align-self: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+}
+#itemBusqueda, #itemTrending{
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+    width: 2rem;
+    height: 1.8rem;
+}
+#itemBusqueda, #itemTrending {
+    position: relative;
+    bottom: 0.8rem;
+}
+#favorito-max {
+    justify-self: end;
+}
+#item4 {
+    grid-area: c;
+    width: 1.92rem;
+    height: 2.11rem;
+    box-sizing: content-box;
+    opacity: 0.5;
+    border: 1px solid #9CAFC3;
+    border-radius: 6px;
+    padding: 0.64rem 0.74rem;
+    position: relative;
+    top: 0.4rem;
+}

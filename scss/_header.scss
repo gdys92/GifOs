@@ -1,0 +1,82 @@
+
+header {
+    height: 79px;
+    padding: 10px 27px 0 20px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+    margin-bottom: 72px;
+}
+.mobile-logo {
+    width: 68px;
+    float: left;
+}
+header nav {
+    float: right
+}
+.menuhamburguesa {
+    margin-top: 1.8rem;
+}
+.menuhamburguesa ul {
+    width: 100%;
+    position: absolute;
+    top: 79px;
+    right: 0;
+    background-color: #7d98f5;
+    height: 100%;
+    padding-top: 1.7rem; 
+    z-index: 2;
+    display: none;
+}
+.menuhamburguesa  ul li {
+    height: 5.5rem;
+}
+#crear {
+    display: none;
+}
+.menuhamburguesa ul li a {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    display: block;
+    line-height: 6rem;
+}
+span.line {
+    width: 4.1rem;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0.8rem;
+}
+.menuhamburguesa input {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+}
+span.hamburguesa {
+    display: block;
+    width: 22px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: #0b45b7;
+    z-index: 1;
+    transform-origin: 1.7rem 0.4rem;
+    border-radius: 0.1rem;
+}
+
+.menuhamburguesa input:checked ~ span.hamburguesa {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0.2rem, -0.2rem) scaleX(1.2);
+}
+.menuhamburguesa input:checked ~ span.hamburguesa:nth-of-type(2) {
+    opacity: 0;
+    transform: scale(0, 0);
+}
+.menuhamburguesa input:checked ~ span.hamburguesa:nth-of-type(3) {
+    transform: rotate(45deg) translate(-0.2rem, 0.4rem) scaleX(1.2);
+}

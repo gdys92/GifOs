@@ -1,9 +1,8 @@
 - API de GIPHY / GIPHY API
 - HTML5
-- CSS3
+- SCSS
 - FLEXBOX
 - Javascript
-- Jquery
 - Diseño responsivo / Responsive design
 - Etiquetas semánticas / Semantic labels
 - Recursos gratuitos de fuentes, imagenes e íconos / Free resources of fonts, images and icons.
