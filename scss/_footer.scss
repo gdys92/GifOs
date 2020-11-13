@@ -17,9 +17,12 @@ footer p {
     font-size: 1.5rem;
 }
 .redes i {
-    color: rgb(205, 214, 224);
+    color: #0b45b7;
     font-size: 2rem;
 }
+.redes i:hover {
+    color: #c049da;
+  }
 .redes a:nth-of-type(2) {
     margin-left: 1.9rem;
     margin-right: 1.9rem;

@@ -69,6 +69,7 @@ span.hamburguesa {
     border-radius: 0.1rem;
 }
 
+
 .menuhamburguesa input:checked ~ span.hamburguesa {
     opacity: 1;
     transform: rotate(-45deg) translate(0.2rem, -0.2rem) scaleX(1.2);
