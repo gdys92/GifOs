@@ -2,8 +2,9 @@
 - HTML5
 - SCSS
 - FLEXBOX
+- Grid
 - Javascript
-- Diseño responsivo / Responsive design
+- Mobile Responsive
 - Etiquetas semánticas / Semantic labels
 - Recursos gratuitos de fuentes, imagenes e íconos / Free resources of fonts, images and icons.
 - favicon

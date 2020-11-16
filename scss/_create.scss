@@ -1,3 +1,200 @@
 #crear-gifos {
     display: none;
 }
+
+
+
+   #primer-fila {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 0.4rem;
+    height: 46.5rem;
+}
+#primera-columna {
+    padding-top: 11.82rem;
+    width: 21.7rem;
+}
+#primera-columna .camara {
+    width: 5rem;
+    transform: scale(2,3);
+    transform: translate(4px,4px);
+}
+#segunda-columna {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 21.8rem;
+}
+#guia-principal {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: 1px solid #572EE5;
+    padding: 2rem;
+    width: 100%;
+    height: 36rem;
+}
+.titulo-crear, .titulo-crear2, .titulo-crear-modificado {
+    font-size: 2.5rem;
+    color: #0b45b7;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+.titulo-crear2::after {
+    content: " GIFOS";
+    color: #c049da;
+}
+.parrafo-crear {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 2.9rem;
+}
+p.parrafo-crear:nth-of-type(1) {
+    margin-top: 0.3rem;
+}
+.container-crear {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 7.5rem;
+    width: 69rem;
+}
+#pasos {
+    margin-top: 2.4rem;
+    margin-left: 38%;
+    margin-right: 29%;
+}
+#pasos button {
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 1px solid #572EE5;
+    border-radius: 50%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #572EE5;
+    text-align: center;
+    margin-left: 2.6rem;
+}
+button#paso1 {
+    margin-left: 0;
+}
+.timer {
+    display: none;
+    width: 7rem;
+    height: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #572EE5;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    align-self: center;
+}
+.timer-off {
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 0.2rem solid #5ED7C6;
+}
+#tercera-columna {
+    display: flex;
+    align-items: flex-end;
+}
+#tercera-columna img {
+    width: 5rem;
+}
+#separacion {
+    display: block;
+    margin: 0 auto;
+    width: 79.59rem;
+    height: 0.69rem;
+    background: #572EE5;
+    border-radius: 3rem;
+}
+#comenzar {
+    display: block;
+    margin: 2.01rem auto 2.6rem auto;
+    padding: 1.8rem 3.15rem 1.6rem 3.25rem;
+    border: 1px solid #0b45b7;
+    background-color: #0b45b7;
+    border-radius: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#comenzar:hover {
+    background: #c049da;
+    border: #c049da;;
+}
+.borde {
+    border-top: 1px solid #50E3C2;
+    border-left: 1px solid #50E3C2;
+    width: 2.7rem;
+    height: 2.5rem;
+}
+#borde-superior, #borde-inferior {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#borde-superior div.borde:nth-child(2) {
+    width: 2.5rem;
+    height: 2.7rem;
+    display: flex;
+    align-items: flex-start;
+    transform: rotate(-270deg);
+}
+#borde-inferior div.borde:nth-child(1) {
+    width: 2.5rem;
+    height: 2.7rem;
+    transform: rotate(-90deg);
+}
+#borde-inferior div.borde:nth-child(2) {
+    width: 2.7rem;
+    height: 2.5rem;
+    transform: rotate(-180deg);
+}
+.div-video-encendido {
+    position: absolute;
+    left: 12.5rem;
+    bottom: 3.5rem;
+    height: 32rem;
+}
+.video-player {
+    height: 32rem;
+}
+.subiendo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    bottom: 15rem;
+    left: 11rem;
+}
+.subiendo-imagen {
+    width: 2.2rem;
+    height: 2.2rem;
+    position: absolute;
+    margin-top: 12.2rem;
+    margin-bottom: 1rem;
+    right: 20rem;  
+}
+.contenedor-gifo {
+    display: flex;
+    position: absolute;
+    bottom: 27.5rem;
+    left: 34rem;
+    margin-top: 1.2rem;
+}
+
+ 
