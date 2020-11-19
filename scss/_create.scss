@@ -19,6 +19,7 @@
     width: 5rem;
     transform: scale(2,3);
     transform: translate(4px,4px);
+    visibility: hidden;
 }
 #segunda-columna {
     display: flex;
@@ -108,6 +109,7 @@ button#paso1 {
 }
 #tercera-columna img {
     width: 5rem;
+    visibility: hidden;
 }
 #separacion {
     display: block;
@@ -164,12 +166,14 @@ button#paso1 {
 }
 .div-video-encendido {
     position: absolute;
-    left: 12.5rem;
+    left: 0.5rem;
     bottom: 3.5rem;
-    height: 32rem;
+    height: 33rem;
 }
+
 .video-player {
     height: 32rem;
+    width: 20rem;
 }
 .subiendo {
     font-family: 'Montserrat', sans-serif;

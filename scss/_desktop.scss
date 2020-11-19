@@ -100,8 +100,8 @@
         width: 46%;
     }
     .titulo-principal {
-       font-size: 3.5rem;
-       line-height: 5rem; 
+        font-size: 3.5rem;
+        line-height: 5rem; 
     }
     .container-buscar {
         position: relative;
@@ -520,6 +520,7 @@
     }
     #primera-columna .camara {
         width: 34.3rem;
+        visibility: visible;
     }
     #segunda-columna {
         display: flex;
@@ -609,6 +610,7 @@
     }
     #tercera-columna img {
        width: 22.2rem;
+       visibility: visible;
     }
     #separacion {
         display: block;
@@ -670,7 +672,7 @@
         height: 32rem;
     }
     .video-player {
-        height: 32rem;
+        width: 45rem;
     }
     .subiendo {
         font-family: 'Montserrat', sans-serif;
