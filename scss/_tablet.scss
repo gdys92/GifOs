@@ -1,0 +1,110 @@
+@media screen and (min-width: 645px) {
+
+   /*HEADER*/
+ 
+     header {
+        height: 9rem;
+        width: 100%;
+        padding: 1.8rem 10.6rem 1.29rem 11.6rem;
+        z-index: 2;
+        background-color: white;
+    }
+    .mobile-logo {
+        width: 5.91rem;
+    }
+    .menuhamburguesa {
+        margin-top: unset;
+        height: 5.4rem;
+    }
+    .menuhamburguesa ul {
+        position: relative;
+        top: -23px;
+        width: fit-content;
+        background-color: inherit;
+        display: inline-block;
+        padding-top: unset;
+    }
+    .menuhamburguesa .hamburguesa, #hamburguesa_checkbox {
+        display: none;
+    }
+    .menuhamburguesa ul li {
+        display: inline-block;
+        padding-top: 1.8rem;
+    }
+    .menuhamburguesa ul li a {
+        color: #0b45b7;
+        font-size: 14px;
+        display: inline;
+        line-height: unset;    
+    }
+    .menuhamburguesa ul li a:hover {
+       border-bottom: 2px #ff61ff solid;
+    }
+    .menuhamburguesa ul li a:active {
+        color:#9CAFC3;
+        border-bottom: unset;
+     }
+    .menuhamburguesa ul li:nth-child(1) {
+        margin-right: 4.15rem;
+    }
+    .menuhamburguesa ul li:nth-child(2) {
+        margin-right: 5rem;
+    }
+    .menuhamburguesa ul li:nth-child(3) {
+        margin-right: 5.95rem;
+    }
+    .menuhamburguesa ul li a {
+        text-transform: uppercase;
+    }
+    span.line {
+        display: none;
+    }
+    #crear {
+        display: inline-block;
+        width: 5.4rem;
+        height: 5.4rem;
+        border: 1px solid #572EE5;
+        border-radius: 50%;
+        cursor: pointer;
+        background: #572EE5;
+    }
+    #crear:hover {
+        background-color: #c049da;
+        border-color: #c049da;
+    }
+    #crear:active {
+        background-color: #9CAFC3;
+        border-color: #9CAFC3;
+    }
+    #crear:hover span.suma {
+        background-color: white;
+    }
+    #crear span.suma {
+        display: block;
+        width: 1.6rem;
+        height: 0.2rem;
+        background-color: #FFFFFF;
+        z-index: 2;
+    }
+    span.suma:nth-of-type(1) {
+        transform: rotate(90deg) translate(2.5rem, -1.8rem);
+    }
+    span.suma:nth-of-type(2) {
+        transform: translate(1.8rem, 2.3rem);
+    }
+
+
+    /* SECCIÓN ``CREAR GIFOS´´*/
+  
+    #primera-columna .camara {
+        width: 24rem;
+        transform: translate(-1px, 108px);
+        visibility: visible;
+    }
+    #tercera-columna img {
+        width: 18rem;
+        visibility: visible;
+    }
+
+
+}

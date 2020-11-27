@@ -89,8 +89,8 @@ botonComenzar.addEventListener("click", event => {
         video.pause();
         cronometro.innerHTML = "";
         cronometro.classList.add("timer-off");
-        cronometro.style.width = "13rem";
-        pasos.style.marginRight = "20%";
+        cronometro.style.width = "9rem";
+        pasos.style.marginRight = "1%";
         cronometro.textContent = "REPETIR CAPTURA";
         recorder.stopRecording();
         track.stop(); // apago la cámara
@@ -348,7 +348,7 @@ document.addEventListener("click", event => {
             cronometro.innerHTML = "";
             cronometro.classList.remove("timer-off");
             cronometro.style.width = "7rem";
-            pasos.style.marginRight = "29%";
+            pasos.style.marginRight = "1%";
             getStreamAndRecord(); 
     }
 })

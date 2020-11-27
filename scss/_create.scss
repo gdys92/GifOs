@@ -34,7 +34,7 @@
     justify-content: space-between;
     border: 1px solid #572EE5;
     padding: 2rem;
-    width: 100%;
+    min-width: 224px;
     height: 36rem;
 }
 .titulo-crear, .titulo-crear2, .titulo-crear-modificado {
@@ -65,8 +65,8 @@ p.parrafo-crear:nth-of-type(1) {
 }
 #pasos {
     margin-top: 2.4rem;
-    margin-left: 38%;
-    margin-right: 29%;
+    margin-left: 29%;
+    margin-right: 5%;
 }
 #pasos button {
     width: 3.2rem;
@@ -172,8 +172,8 @@ button#paso1 {
 }
 
 .video-player {
-    height: 32rem;
-    width: 20rem;
+    height: 37rem;
+    width: 21rem;
 }
 .subiendo {
     font-family: 'Montserrat', sans-serif;
