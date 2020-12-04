@@ -2,7 +2,9 @@
 footer {
     padding-top: 4.7rem;
     padding-bottom: 2.3rem;
-    border-bottom: 0.5rem #572EE5 solid;
+    border-bottom: 0.5rem solid transparent;
+    border-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    border-image-slice: 1;
 }
 footer p {
     font-family: 'Roboto', sans-serif;

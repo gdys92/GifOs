@@ -521,6 +521,7 @@
     #primera-columna .camara {
         width: 34.3rem;
         visibility: visible;
+        transform: translate(-8px, 5px);
     }
     #segunda-columna {
         display: flex;
@@ -609,15 +610,16 @@
         align-items: flex-end;
     }
     #tercera-columna img {
-       width: 22.2rem;
-       visibility: visible;
+        width: 22.2rem;
+        visibility: visible;
+        transform: translate(-38px, 0px);
     }
     #separacion {
         display: block;
         margin: 0 auto;
         width: 79.59rem;
         height: 0.69rem;
-        background: #572EE5;
+        background: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
         border-radius: 3rem;
     }
     #comenzar {
