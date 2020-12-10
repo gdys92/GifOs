@@ -61,11 +61,11 @@ p.parrafo-crear:nth-of-type(1) {
     display: flex;
     flex-flow: row nowrap;
     height: 7.5rem;
-    width: 69rem;
+    width: 31rem;
 }
 #pasos {
     margin-top: 2.4rem;
-    margin-left: 29%;
+    margin-left: 17%;
     margin-right: 5%;
 }
 #pasos button {
@@ -114,7 +114,6 @@ button#paso1 {
 #separacion {
     display: block;
     margin: 0 auto;
-    width: 79.59rem;
     height: 0.69rem;
     background: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
     border-radius: 3rem;
