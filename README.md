@@ -1,3 +1,9 @@
+# GifOs 
+
+Website using Giphy API.
+
+## Made with:
+
 - API de GIPHY / GIPHY API
 - HTML5
 - SCSS
